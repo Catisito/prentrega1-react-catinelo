@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:ital,wght@1,300&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+
+.carrito{
+  width: 100%;
+  max-width: 60px;
+}
+.carrito button{
+  box-shadow: none;
+}
+
+.btn-success{
+  --bs-btn-border-color: black;
+  --bs-btn-line-height: 1.5;
+}
+
+.container-fluid{
+  background-color: #606c38;
+  min-height: 70px;
+}
+
+.titulo{
+  font-family: 'Poppins', sans-serif;
+}
+
+.main{
+  color: white;
+  min-height: 300px;
+}
+
+.listas{
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
